@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang='pt-BR'>
+<head>
+	<meta charset="utf-8">
+	<title> Teste java</title>
+	<script src="java2.js"></script>
+	<link rel="stylesheet" type="text/css" href="1.css">
+</head>
+<body >
+	Aula java
+	
+	<h1>Eventos de Mouse</h1>
+		<div id="cores" onmouseover="sobre()" onmousedown="parabaixo()" onmousemove="movendo()" onmouseout="saindo()" onmouseup="paracima()">	
+		</div>
+	<br><br><br>
+	
+	<H1>Prenchimento de formulários - IMC	</H1>
+		<form>
+			<label for="peso">Peso:</label>
+			<input type="text" name="peso" id="peso"><br>
+			<label for="altura">Altura:</label>
+			<input type="text" name="altura" id="altura"><br>
+			
+			<button type="button" onclick="calculaIMC()">Enviar
+			</button>
+		</form>
+	<h1>Maiúscula</h1>
+		<form>
+			<label for="maiuscula">Texto:<br></label>
+			<textarea id="texto" name="texto" rows="10" cols="100" onkeyup="maiuscula()"></textarea><br>
+			<button type="button">Enviar</button>
+		</form>
+
+
+
+
+	<br><br><br>
+	<h2  >Log de ocorrências</h2>
+	<div id="log">
+	</div>
+	
+</body>
+</html>

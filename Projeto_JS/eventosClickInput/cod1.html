@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang='pt-BR'>
+<head>
+	<meta charset="utf-8">
+	<title> Teste java</title>
+	<script src="java1.js"></script>
+</head>
+<body >
+Primeira aula java
+<p>Olha <script  > document.write(nome) </script>, vc precisa aprender essa linguagem  logo  
+</p>
+
+
+<h1>Eventos de Click</h1>
+<div >
+	<img id="log1" onClick="umclick()" ondblclick="doisclick()" src="https://jcdattoli.files.wordpress.com/2015/03/faa32-doisloboscherokeefacecloseupdupla.jpg?w=376">
+
+</div> 
+
+<h1>Eventos de Input</h1>
+
+<form name="formtest" onsubmit="return submeti()" onreset="resetei()">
+	<label  for="nome">
+		Nome:		
+	</label>
+
+	<input type="text" id="nome" name="nome" onBlur="saidocampo()" onChange="mudei()" onFocus="entreinocampo()" onSelect="selecionei()" onKeyDown="teclabaixo()" onKeyUp="teclacima()"> <br>
+	<button type="submit">Enviar</button>	
+	<button type="reset" >Limpar</button>
+</form>
+<br>
+<h2  >Log de ocorrências</h2>
+texto
+
+<div id="log"></div>
+
+</body>
+</html>
